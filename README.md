@@ -1,6 +1,7 @@
 ## java -> kotlin 세팅하기
 <br/>
-** 코틀린의 클래스는 기본적으로 final 이라서 상속이 불가능하므로 open class 로 만들어 주어야 함.
+
+| 코틀린의 클래스는 기본적으로 final 이라서 상속이 불가능하므로 open class 로 만들어 주어야 함.
 하지만 모든 클래스마다 open 키워드를 붙이는 건 번거로울 수 있으므로 build.gradle 에서 설정 가능
 plugin 등록
 id ("org.jetbrains.plugin.allopen") version "1.6.21"
