@@ -4,8 +4,10 @@
 <p>:bulb: 코틀린의 클래스는 기본적으로 final 이라서 상속이 불가능하므로 open class 로 만들어 주어야 함.<br/>
 하지만 모든 클래스마다 open 키워드를 붙이는 건 번거로울 수 있으므로 build.gradle 에서 설정 가능</p>
 <br/>
-:bulb: plugin 등록<br/>
-id ("org.jetbrains.plugin.allopen") version "1.6.21"<br/>
+:bulb: plugin 등록<br/><br/>
+
+	id ("org.jetbrains.plugin.allopen") version "1.6.21"
+ 
 <br/>
 allOpen { annotation ("") } <br/><br/>
 :no_good: 하지만 이 방법도 새로운 annotation 을 사용할 때마다 계속 추가해줘야 하기 때문에 불편<br/>
